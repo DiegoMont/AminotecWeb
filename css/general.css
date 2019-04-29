@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #000;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #015a96;
+}
+
+nav {
+  background-color: #fff;
+  height:20px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.centre {
+  max-width: 1150px;
+  margin: 0 auto;
+}
