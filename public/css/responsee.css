@@ -181,6 +181,10 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   background:#2b4c61;
   color:#fff;
 }
+img.imgProd {
+  margin: 0 auto 20px auto;
+  width: 40vw;
+}
 @media screen and (min-width:769px) {
   .aside-nav .count-number {
 	  margin-left:-1.25rem;	
@@ -195,6 +199,9 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
     margin:-2.5rem 0;
     width:100%;
   } 
+  img.imgProd {
+    width: 20vw;
+  }
 }
 .nav-text,.aside-nav-text {display:none;}
 .aside-nav a,.aside-nav a:link,.aside-nav a:visited,.aside-nav li > ul,.top-nav a,.top-nav a:link,.top-nav a:visited {
