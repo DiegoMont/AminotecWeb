@@ -183,7 +183,8 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
 }
 img.imgProd {
   margin: 0 auto 20px auto;
-  width: 40vw;
+  height: 30vh;
+  width: auto !important;
 }
 @media screen and (min-width:769px) {
   .aside-nav .count-number {
