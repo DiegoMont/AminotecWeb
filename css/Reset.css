@@ -1,0 +1,171 @@
+/*
+blanco-texto: #fafafa
+texto-negro: 3d3d3d
+*/
+* {
+  color: #3d3d3d;
+  padding: 0;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+html {
+  font-size: 18px;
+}
+
+footer {
+  min-height: 50vh;
+}
+
+header {
+  padding: 3rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  max-width: 35em;
+  margin: 0 auto;
+}
+
+p, a, label, input, button, li, textarea {
+  font-size: 1rem;
+}
+
+p, textarea {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: justify;
+  max-width: 35rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.35rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+
+img {
+  width: 100%;
+}
+
+header, footer, section {
+  width: 100%;
+}
+
+ol, ul {
+  list-style-position: inside;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+textarea {
+  resize: none;
+}
+
+textarea, input[type=email], input[type=password], input[type=tel], input[type=text], input[type=date], input[type=number] {
+  color: #3d3d3d;
+  background-color: #fafafa;
+  padding: 0.25rem 0.3rem;
+  border-radius: 1px;
+}
+
+button, .btn {
+  cursor: pointer;
+}
+
+.centre {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.dark-font {
+  color: #3d3d3d;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.error {
+  color: #f00;
+}
+
+.light-font {
+  color: #fafafa;
+}
+
+.link {
+  font-weight: 500;
+  color: #00bfff;
+}
+
+.mostrar {
+  display: block;
+}
+
+.ocultar {
+  display: none;
+}
+
+.opacar {
+  opacity: 0.5;
+}
+
+.parrafo {
+  line-height: 1.5;
+  text-align: justify;
+  max-width: 35rem;
+  margin-bottom: 1em;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1016px) {
+  .centre {
+    margin: 0 10px;
+  }
+}
+
+@media screen and (min-width: 2016px) {
+  html {
+    font-size: 36px;
+  }
+
+  .centre {
+    max-width: 2000px;
+  }
+}

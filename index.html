@@ -2,17 +2,64 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Aminotec</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de insumos pecuarios | Aminotec Plus</title>
+    <link rel="stylesheet" type="text/css" href="css/Reset.css">
     <link rel="stylesheet" type="text/css" href="css/general.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo-home.css">
+    <link rel="icon" type="image/png" href="public/img/favicon.png">
+    <script src="public/js/interactividad-home.js" charset="utf-8" defer></script>
   </head>
   <body>
-    <div class="centre">
-      <nav>
-        <a href="#">inicio</a>
-        <a href="#">producto</a>
-        <a href="#">contacto</a>
-      </nav>
-    </div>
+    <header class="main-header">
+      <div class="centre flexbox">
+        <a href="index.html"><img src="public/img/logo.svg" alt="Aminotec Plus"></a>
+        <nav class="flexbox">
+          <a class="active-nav-btn" href="index.html">Inicio</a>
+          <a href="productos.html">Productos</a>
+          <a href="about-us.html">Sobre nosotros</a>
+          <a href="contact-us.html">Cont&aacute;ctanos</a>
+        </nav>
+      </div>
+    </header>
 
+    <section class="carrousel">
+      <div class="centre">
+        <div class="slider">
+          <img class="slider-img" src="public/img/carr1.jpg" alt="">
+          <img class="slider-img" src="public/img/carr2.jpg" alt="">
+        </div>
+        <div class="flexbox" id="img-btn-container">
+        </div>
+      </div>
+    </section>
+
+    <section class="highlights">
+      <div class="centre">
+        <div class="flexbox">
+          <div class="producto">
+            <img src="public/img/productos/lisina.jpg" alt="Lisina">
+            <h4>L-Lisina</h4>
+            <p>Es un amino&aacute;cido esencial y limitante en la alimentaci&oacute;n de aves, peces y vacas lecheras.</p>
+          </div>
+          <div class="producto">
+            <img src="public/img/productos/treonina.jpg" alt="Treonina 25 kilogramos">
+            <h4>L-Treonina</h4>
+            <p>La treonina es el segundo amino&aacute;cido limitante, en una dieta t&iacute;pica basada en cereales para la mayor&iacute;a de las especies.</p>
+          </div>
+          <div class="producto">
+            <img src="public/img/productos/metionina.jpg" alt="DL-Metionina 25 kilogramos">
+            <h4>DL-Metionina</h4>
+            <p>Mejora el rendimiento del pienso animal, permitiendo realizar un importante ahorro sin perder seguridad y facilidad de uso.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Todos los derechos reservados &copy; 2019, Aminotec Plus</p>
+    </footer>
   </body>
 </html>
